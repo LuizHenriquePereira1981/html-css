@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'love girl';
+    src: url(fonts/Filxgirl.TTF) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+
+    /* Tipos de format()
+    opentype - .otf
+    truetype - .ttf 
+    embedded-opentype - .eot
+    svg - .svg  
+    true-type-aat (Apple Advanced Typography) - .ttc
+
+    */
+}
+
+body {
+    font-family: "love girl", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3em;
+    background-color: rgba(126, 7, 57, 0.877);
+    color: #fff;
+    text-align: justify;
+}
+
+h1 {
+    font-family: love girl, system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    text-align: center;
+}

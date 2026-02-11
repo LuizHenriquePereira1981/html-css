@@ -1,0 +1,18 @@
+@charset "UTF-8"
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em; /* Medidas absolutas: mm, cm, in, px, pt, pc
+                    Medidas relativas: em, ex, rem, vw, vh, %
+                 */
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    /* Shorthand font = vários atributos para fonte em uma só linha
+    ordem para classificar:
+    font-style, font-weight, font-size, font-family */
+}
