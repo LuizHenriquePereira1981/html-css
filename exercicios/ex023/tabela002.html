@@ -11,6 +11,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -29,15 +30,22 @@
             background-color: gray;
             color: white;
         }
+
+        thead > tr > th { /* Cabeçalho fixo */
+            position: sticky;
+            top: 0;
+            background-color: gray;
+            color: white;
+        }
     
 
         tbody > tr:nth-child(even) {
             background-color: bisque;
-        } /* tr:nth-child(even) para células pares */
+        } /* efeito zebrado - tr:nth-child(even) para células pares */
 
         tbody > tr:nth-child(odd) {
             background-color: rgba(192, 190, 190, 0.596);
-        } /* tr:nth-child(odd) para célulars ímpares */
+        } /* efeito zebrado - tr:nth-child(odd) para célulars ímpares */
 
         td.num{
             text-align: right;
