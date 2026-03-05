@@ -26,7 +26,9 @@ header h1 {
 span#burguer {
     display: block;
     background-color: rgb(58, 57, 57);
+    color: white;
     padding: 10px;
+    border-radius: 5px;
 }
 
 span#burguer:hover {
@@ -50,6 +52,8 @@ menu > ul > li {
     color: white;
     text-decoration: none;
     border-top: 2px solid gray;
+    margin: 4px;
+    border-radius: 5px;
 }
 
 menu > ul > li:hover {
