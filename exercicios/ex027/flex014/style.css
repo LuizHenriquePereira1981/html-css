@@ -19,12 +19,49 @@ p, h1, h2 {
   text-align: justify;
 }
 
-header,
-section.normal {
+header, section.normal {
   padding: 20px;
 }
 
 section.flex-content {
   background-color: rgba(128, 128, 128, 0.219);
   padding: 20px;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+}
+
+article.text-media {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+article.media-text {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+article > div.text {
+  flex: 1 1 500px;
+}
+
+article > div.media {
+  flex: 1 0 500px;
+}
+
+div.media img {
+  display: block;
+  margin: auto;
+  padding: 20px 0;
+}
+
+div.media iframe {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 20px 0;
 }
