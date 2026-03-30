@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid black;
+    height: 715px;
+    width: 100%;
+    grid-template: 100px 50px 500px 50px / 100px 3fr 200px;
+    gap: 5px;
+}
+
+.topo {
+    background-color: rgba(128, 128, 128, 0.486);
+    border: 2px solid black;
+    place-content: center;
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+.menu {
+    background-color: bisque;
+    border: 2px solid black;
+    place-content: center;
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+.principal {
+    background-color: rgba(255, 248, 220, 0.493);
+    border: 2px solid black;
+    place-content: center;
+    grid-area: 3 / 1 / 4 / 3;
+}
+
+.secundario {
+    background-color: rgba(255, 235, 205, 0.664);
+    border: 2px solid black;
+    place-content: center;
+    grid-area: 3 / 3 / 4 / 4;
+}
+
+.rodape {
+    background-color: rgba(128, 128, 128, 0.486);
+    border: 2px solid black;
+    place-content: center;
+    grid-area: 4 / 1 / 5 / 4;
+}
